@@ -1,4 +1,4 @@
-function [ nothing ] = drawPainScoreLine( viz_data,subplot_info,LineWidth,Fs )
+function drawPainScoreBeam( viz_data,subplot_info,LineWidth,Fs )
 
 [rows,cols] = size(viz_data);
 

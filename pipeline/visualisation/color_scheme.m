@@ -1,4 +1,4 @@
-function [ color ] = getDescreteColorForScore( pain_score,num_of_scores )
+function [ color ] = color_scheme( pain_score,num_of_scores )
 
 m = 255;
 

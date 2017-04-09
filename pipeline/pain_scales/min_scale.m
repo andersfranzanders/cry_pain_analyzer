@@ -1,9 +1,5 @@
 function [ pain_scores,num_of_scores ] = min_scale( cu_mins )
 
-fprintf('\n');
-disp('---------Pain Scores as of the "Min-Scale"---------');
-
-
 
 num_of_scores = 4;
 pain_scores = zeros(1,length(cu_mins));
@@ -23,7 +19,6 @@ for i =1:length(cu_mins)
     end
     pain_scores(i) = score;
     
-    disp([num2str(i),'. Segment: Pain-Score = ',num2str(score)]);
 end    
 
 

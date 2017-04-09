@@ -30,7 +30,7 @@ message = '================== Results of Analysis ==================';
 fprintf('\n');
 disp(message);
 [rows,cols] = size(cryUnits);
-message = ['Number of Detected Cry Units in this Signal: ' ,  num2str(rows)];
+message = ['Number of Detected Cry-Units in this Signal: ' ,  num2str(rows)];
 disp(message);
 end
 

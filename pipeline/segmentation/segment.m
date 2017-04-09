@@ -19,7 +19,7 @@ end
 segments = [segments, {thisSeg}];
 
 
-disp(['Number of found segments (with t_s = ', num2str(t_s),'): ' num2str(length(segments))]);
+disp(['Number of found Cry-Segments (with t_s = ', num2str(t_s),'): ' num2str(length(segments))]);
 fprintf('\n');
 
 end
