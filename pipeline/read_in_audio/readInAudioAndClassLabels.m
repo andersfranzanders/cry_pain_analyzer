@@ -18,7 +18,7 @@ try
         end
     end
 catch
-    warning('Could not find file providing voiced/unvoiced-classification-labels for this file.');
+  %  warning('Could not find file providing voiced/unvoiced-classification-labels for this file.');
 end
 
 disp(['Input File: ', fileName]);
